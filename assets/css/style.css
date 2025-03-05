@@ -969,6 +969,10 @@ column-gap:1.875rem;
     width:auto !important;
     height:auto !important; 
   }
+
+  .project__img{
+    z-index:-100;
+  }
   .swiper-button-next img,
   .swiper-button-prev img{
     width:1.125rem;
@@ -998,6 +1002,10 @@ column-gap:1.875rem;
     width:auto !important;
     height:auto !important;
    }
+
+  .project__img {
+    z-index:-100;
+  }
 
   .home__work{
     font-size:var(--fs-sm);
