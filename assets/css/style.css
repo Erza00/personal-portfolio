@@ -943,17 +943,6 @@ column-gap:1.875rem;
   padding:0 3rem;
 }
 
-  
-  .project__description,
-  .project__stack{
-    display:none;
-  }
-
-  .project__link{
-    font-size:1rem;
-    font-weight:400;
-  }
-
 .contact__container{
   row-gap: 2rem;
 }
@@ -981,32 +970,23 @@ column-gap:1.875rem;
     width:1.125rem;
     height:1.125rem;
   }
-
-  .project__description,
-  .project__stack{
-    display:none;
-  }
-
-  .project__link{
-    font-size:1rem;
-    font-weight:400;
-  }
 }
 
 /* for small devices */
 @media screen and (max-width: 350px) {
+  
   :root{
     --fs-h1:2rem;
-  }
-
-  .home__work{
-    font-size:var(--fs-sm);
   }
 
    .project__img{
     width:100%;
     height:auto !important;
    }
+
+  .home__work{
+    font-size:var(--fs-sm);
+  }
 
   .home-list{
     font-size:0.875rem;
@@ -1015,6 +995,11 @@ column-gap:1.875rem;
   .home-list dd{
    padding-left:5.75em;
   }
+
+  .home__social-link{
+    font-size: 1.3em;
+  }
+
   .project__description,
   .project__stack{
     display:none;
@@ -1024,9 +1009,4 @@ column-gap:1.875rem;
     font-size:1rem;
     font-weight:400;
   }
-
-  .home__social-link{
-    font-size: 1.3em;
-  }
-  .
 }
