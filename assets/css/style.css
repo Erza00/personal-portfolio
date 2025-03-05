@@ -965,8 +965,8 @@ column-gap:1.875rem;
     padding: 0 1.5rem;
   }
 
-  .project__img img{
-    width:80%;
+  .project__img{
+    width:auto !important;
     height:auto !important; 
   }
   .swiper-button-next img,
@@ -982,8 +982,9 @@ column-gap:1.875rem;
   .project__link{
     font-size:1rem;
     font-weight:400;
-    z-index:100;
   }
+  .project__link a{
+    z-index:100;
 }
 
 /* for small devices */
@@ -994,7 +995,7 @@ column-gap:1.875rem;
   }
 
    .project__img img{
-     width:80%;
+    width:auto !important;
     height:auto !important;
    }
 
@@ -1024,4 +1025,6 @@ column-gap:1.875rem;
     font-weight:400;
     z-index:100;
   }
+  .project__link a{
+    z-index:100;
 }
