@@ -965,7 +965,7 @@ column-gap:1.875rem;
     padding: 0 1.5rem;
   }
 
-  .project__img{
+  .projects__container{
     width:auto !important;
     height:auto !important; 
   }
@@ -994,7 +994,7 @@ column-gap:1.875rem;
     --fs-h1:2rem;
   }
 
-   .project__img{
+   .projects__container{
     width:auto !important;
     height:auto !important;
    }
