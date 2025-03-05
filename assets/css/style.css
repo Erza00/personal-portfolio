@@ -943,6 +943,17 @@ column-gap:1.875rem;
   padding:0 3rem;
 }
 
+  
+  .project__description,
+  .project__stack{
+    display:none;
+  }
+
+  .project__link{
+    font-size:1rem;
+    font-weight:400;
+  }
+
 .contact__container{
   row-gap: 2rem;
 }
@@ -969,6 +980,16 @@ column-gap:1.875rem;
   .swiper-button-prev img{
     width:1.125rem;
     height:1.125rem;
+  }
+
+  .project__description,
+  .project__stack{
+    display:none;
+  }
+
+  .project__link{
+    font-size:1rem;
+    font-weight:400;
   }
 }
 
