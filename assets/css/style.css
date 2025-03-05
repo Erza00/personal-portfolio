@@ -982,6 +982,11 @@ column-gap:1.875rem;
     font-size:var(--fs-sm);
   }
 
+   .project__img{
+    width:100%;
+    height:auto !important;
+   }
+
   .home-list{
     font-size:0.875rem;
   }
@@ -993,4 +998,5 @@ column-gap:1.875rem;
   .home__social-link{
     font-size: 1.3em;
   }
+  .
 }
