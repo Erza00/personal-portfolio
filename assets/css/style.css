@@ -965,8 +965,7 @@ column-gap:1.875rem;
     padding: 0 1.5rem;
   }
 
-  .project__item{
-    width:auto;
+  .project__img{
     height:auto !important; 
   }
   .swiper-button-next img,
@@ -993,8 +992,7 @@ column-gap:1.875rem;
     --fs-h1:2rem;
   }
 
-   .project__item{
-    width:auto;
+   .project__img{
     height:auto !important;
    }
 
