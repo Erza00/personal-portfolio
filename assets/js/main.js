@@ -1,3 +1,8 @@
+/*===========my links===============*/
+document.querySelectorAll('#my-link').addEventListener("touchstart",function(){
+  window.location.href="https://erza00.github.io/interior-web/","https://erza00.github.io/adventigo-web/","https://erza00.github.io/grill-web/";
+})
+
 /*=============== Show Menu ================= */
 const navMenu = document.getElementById('nav-menu');
 navToggle = document.getElementById('nav-toggle');
