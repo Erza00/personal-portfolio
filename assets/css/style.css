@@ -966,8 +966,8 @@ column-gap:1.875rem;
   }
 
   .project__img img{
-    width:400px;
-    height:400px; 
+    width:auto;
+    height:auto; 
   }
   .swiper-button-next img,
   .swiper-button-prev img{
@@ -994,8 +994,8 @@ column-gap:1.875rem;
   }
 
    .project__img img{
-    width:200px;
-    height:200px;
+    width:auto;
+    height:auto;
    }
 
   .home__work{
