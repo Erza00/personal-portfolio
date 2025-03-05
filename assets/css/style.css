@@ -994,6 +994,15 @@ column-gap:1.875rem;
   .home-list dd{
    padding-left:5.75em;
   }
+  .project__description,
+  .project__stack{
+    display:none;
+  }
+
+  .project__link{
+    font-size:1rem;
+    font-weight:400;
+  }
 
   .home__social-link{
     font-size: 1.3em;
