@@ -965,7 +965,7 @@ column-gap:1.875rem;
     padding: 0 1.5rem;
   }
 
-  .projects__container{
+  .project__item{
     width:auto;
     height:auto !important; 
   }
@@ -993,7 +993,7 @@ column-gap:1.875rem;
     --fs-h1:2rem;
   }
 
-   .projects__container{
+   .project__item{
     width:auto;
     height:auto !important;
    }
