@@ -994,7 +994,7 @@ column-gap:1.875rem;
     --fs-h1:2rem;
   }
 
-   .project__img img{
+   .project__img{
     width:auto !important;
     height:auto !important;
    }
