@@ -929,6 +929,10 @@ column-gap:1.875rem;
     max-width:540px;
   }
 
+  .project__img{
+    width:auto !important;
+    height:auto !important;
+
   .services__container,
   .skills__container,
   .contact__container{
@@ -971,13 +975,14 @@ column-gap:1.875rem;
     height:1.125rem;
   }
   .project__description,
-  .project__stack{
+  .project__stack,.tags{
     display:none;
   }
 
   .project__link{
     font-size:1rem;
     font-weight:400;
+    z-index:10;
   }
 }
 
@@ -989,7 +994,7 @@ column-gap:1.875rem;
   }
 
    .project__img{
-    width:100%;
+    width:auto !important;
     height:auto !important;
    }
 
@@ -1010,12 +1015,13 @@ column-gap:1.875rem;
   }
 
   .project__description,
-  .project__stack{
+  .project__stack,.tags{
     display:none;
   }
 
   .project__link{
     font-size:1rem;
     font-weight:400;
+    z-index:10;
   }
 }
