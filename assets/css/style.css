@@ -970,8 +970,8 @@ column-gap:1.875rem;
     height:auto !important; 
   }
 
-  .project__img{
-    z-index:-100;
+  .project__img img{
+    z-index:-10;
   }
   .swiper-button-next img,
   .swiper-button-prev img{
@@ -1003,8 +1003,8 @@ column-gap:1.875rem;
     height:auto !important;
    }
 
-  .project__img {
-    z-index:-100;
+  .project__img img{
+    z-index:-10;
   }
 
   .home__work{
