@@ -992,6 +992,7 @@ column-gap:1.875rem;
   }
   .project__link a{
     z-index:100;
+    display:block;
   }
   .project__img img{
     z-index:-100;
@@ -1049,6 +1050,7 @@ column-gap:1.875rem;
 
   .project__link a{
     z-index:100;
+    display:block;
   }
    .nav__toggle, .nav__close{
     display:block;
