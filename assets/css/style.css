@@ -972,9 +972,7 @@ column-gap:1.875rem;
 .project__data,.project__item,{
   display:block;
 }
-  .project__img{
-    object-fit:cover;
-  }
+  
   
   .swiper-button-next img,
   .swiper-button-prev img{
@@ -994,7 +992,7 @@ column-gap:1.875rem;
     z-index:100;
     display:block;
   }
-  .project__img img{
+  .project__img{
     z-index:-100;
   }
    .nav__toggle, .nav__close{
@@ -1019,7 +1017,7 @@ column-gap:1.875rem;
   display:block;
 }
 
-  .project__img img{
+  .project__img{
     z-index:-100;
   }
   .home__work{
