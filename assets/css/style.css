@@ -986,11 +986,9 @@ column-gap:1.875rem;
   .project__link{
     font-size:1rem;
     font-weight:400;
-    z-index:100;
-    display:block;
   }
-  .project__link a{
-    z-index:100;
+  .project__img{
+    z-index:-100;
   }
    .nav__toggle, .nav__close{
     display:block;
@@ -1037,13 +1035,11 @@ column-gap:1.875rem;
   .project__link{
     font-size:1rem;
     font-weight:400;
-    z-index:100;
-    display:block;
   }
    .nav__toggle, .nav__close{
     display:block;
   }
  
-.project__link a{
-  z-index:100;
-}
+ .project__img{
+    z-index:-100;
+  }
