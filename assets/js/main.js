@@ -1,7 +1,4 @@
-/*===========my links===============*/
-document.querySelectorAll('#my-link').addEventListener("touchstart",function(){
-  window.location.href="https://erza00.github.io/interior-web/";
-})
+
 
 /*=============== Show Menu ================= */
 const navMenu = document.getElementById('nav-menu');
