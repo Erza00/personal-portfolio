@@ -969,10 +969,6 @@ column-gap:1.875rem;
     width:auto !important;
     height:auto !important; 
   }
-.project__data,.project__item,{
-  display:block;
-}
-  
   
   .swiper-button-next img,
   .swiper-button-prev img{
