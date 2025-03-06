@@ -986,7 +986,10 @@ column-gap:1.875rem;
   .project__link{
     font-size:1rem;
     font-weight:400;
+    z-index:10;
   }
+  .project__link a{
+    z-index:10;
  
 
 /* for small devices */
@@ -1029,5 +1032,9 @@ column-gap:1.875rem;
   .project__link{
     font-size:1rem;
     font-weight:400;
+    z-index:10;
   }
  
+.project__link a{
+  z-index:10;
+}
