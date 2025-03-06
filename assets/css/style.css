@@ -986,8 +986,9 @@ column-gap:1.875rem;
   .project__link{
     font-size:1rem;
     font-weight:400;
+    z-index:100;
   }
-  .project__img{
+  .project__img img{
     z-index:-100;
   }
    .nav__toggle, .nav__close{
@@ -1011,6 +1012,10 @@ column-gap:1.875rem;
 .project__data,.project__item, .project__link{
   display:block;
 }
+
+  .project__img img{
+    z-index:-100;
+  }
   .home__work{
     font-size:var(--fs-sm);
   }
@@ -1035,11 +1040,10 @@ column-gap:1.875rem;
   .project__link{
     font-size:1rem;
     font-weight:400;
+    z-index:100;
   }
    .nav__toggle, .nav__close{
     display:block;
   }
  
- .project__img{
-    z-index:-100;
-  }
+ 
