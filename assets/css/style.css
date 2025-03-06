@@ -989,6 +989,8 @@ column-gap:1.875rem;
   .project__link{
     font-size:1rem;
     font-weight:400;
+  }
+  .project__link a{
     z-index:100;
   }
   .project__img img{
@@ -1043,6 +1045,9 @@ column-gap:1.875rem;
   .project__link{
     font-size:1rem;
     font-weight:400;
+  }
+
+  .project__link a{
     z-index:100;
   }
    .nav__toggle, .nav__close{
